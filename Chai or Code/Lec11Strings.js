@@ -1,10 +1,10 @@
 const name = "vishvash ";
 const repoCount = 8;
-// console.log(name + repoCount + " value");
+console.log(name + repoCount + " value");
 console.log(`Hello my name is ${name}and my repo count is ${repoCount}`);
 
 const playerName = new String("Rohit Sharma");
-console.log(playerName.length); // length of the string
+console.log(playerName.length); // length of the string 12
 console.log(playerName[0]);
 console.log(playerName.charAt(1)); // get character at index 1
 // console.log(playerName.__proto__);
@@ -14,7 +14,7 @@ console.log(playerName.toLowerCase());
 console.log(playerName.toUpperCase());
 console.log(playerName.toLocaleLowerCase());
 console.log(playerName.toLocaleUpperCase());
-console.log(playerName.indexOf('a',3)); //
+console.log(playerName.indexOf('a',2)); // 8
 
 const newString = playerName.slice(3);
 console.log(newString);

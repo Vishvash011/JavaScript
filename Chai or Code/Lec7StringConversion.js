@@ -14,12 +14,11 @@ let str2 = " Gurjar";
 let str3 = str1 + str2;
 // console.log(str3);
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2 + 4);
-// console.log(1 + 2 + "2");
-
-// console.log(3 + 4 * 5 % 3);
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+console.log("1" + 2 + 2 + 4); // 1224
+console.log(1 + 2 + "2"); // 32
+console.log(3 + 4 * 5 % 3); // 5
 
 console.log(true);
 console.log(+true);

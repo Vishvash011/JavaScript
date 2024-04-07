@@ -3,11 +3,11 @@
 // 2. Heap Memory  - It is a shared, dynamic memory that is used to store the variables and data structures which are in a computer:
 
 let myName = "Vishvash";
-let nickName = myName;
-nickName = "Pratham";
 console.log(myName);  
-// Output: Vishvash
+let nickName = myName;
 console.log(nickName);
+nickName = "Pratham";
+console.log(nickName);  
 // Output: Pratham
 
 let userOne = {
@@ -17,6 +17,8 @@ let userOne = {
 
 let userTwo = userOne;
 
+console.log(userOne);
+console.log(userTwo);
 userTwo.email = "vishu@email.com";
 console.log(userOne);
 console.log(userTwo);
