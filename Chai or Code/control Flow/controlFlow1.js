@@ -142,6 +142,6 @@ val1 =  10 ?? null ?? 15
 console.log(val1);
 
 
-let a = 10
-let b = 20
+let a = 20;
+let b = 20;
 a < b ? console.log('a is smaller') : console.log('b is smaller');
