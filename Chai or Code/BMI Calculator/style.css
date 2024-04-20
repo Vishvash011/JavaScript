@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #d2cdcd;
+    padding: 1rem;
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.4em
+}
+.a1{
+    background-color: rgb(222, 219, 219);
+}
+.a2{
+    background-color: #fff;
+}
+.container{
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+form button{
+    width: 100px;
+    height: 20px;
+}
+#weight-guide{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 9rem;
+    padding-top: 2rem;
+}
