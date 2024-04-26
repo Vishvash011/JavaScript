@@ -12,9 +12,6 @@
 // console.log(numbers);
 
 
-
-
-
 //searching
 // console.log(numbers.indexOf(7));
 
